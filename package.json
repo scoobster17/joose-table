@@ -1,0 +1,25 @@
+{
+  "name": "joose-table",
+  "version": "1.0.0",
+  "description": "A paginated, sortable table, part of the Joose component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoobster17/joose-table.git"
+  },
+  "keywords": [
+    "Joose",
+    "table",
+    "paginated",
+    "sortable"
+  ],
+  "author": "Phil Gibbins <scoobster17@hotmail.co.uk> (http://www.philgibbins.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scoobster17/joose-table/issues"
+  },
+  "homepage": "https://github.com/scoobster17/joose-table#readme"
+}
