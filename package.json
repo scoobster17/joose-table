@@ -4,6 +4,7 @@
   "description": "A paginated, sortable table, part of the Joose component library",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/scoobster17/joose-table/issues"
   },
-  "homepage": "https://github.com/scoobster17/joose-table#readme"
+  "homepage": "https://github.com/scoobster17/joose-table#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.10",
+    "jquery": "^3.1.1",
+    "reset-css": "^2.2.0"
+  }
 }

@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+}
+thead {
+    th {
+        font-weight: bold;
+    }
+}
+tbody {
+    tr {
+        &:nth-child(2n - 1) {
+            background: #ededed;
+        }
+    }
+}
+th {
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+td {
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
